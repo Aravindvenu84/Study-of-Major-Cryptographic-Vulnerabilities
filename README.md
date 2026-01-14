@@ -111,9 +111,3 @@ Avoid placing sensitive data in headers
 
 Apply response padding where applicable
 
-## 🔐 Modern Security Practices Summary
-Vulnerability	Modern Mitigation
-Heartbleed ❤️‍🔥	Patched OpenSSL, key rotation
-BEAST 🐍	TLS 1.2+, AEAD ciphers
-DROWN 🌊	Disable SSLv2, ECDHE
-CRIME 🕵️	Disable compression, TLS 1.3
